@@ -1,16 +1,13 @@
-# The Monospace Web
+# The PNC Monospace Guide
 
-Monospace fonts are dear to many of us. Some find them more readable, consistent, and beautiful, than their proportional alternatives. Maybe we’re just brainwashed from spending years in terminals? Or are we hopelessly nostalgic? I’m not sure. But I like them, and that’s why I started experimenting with all-monospace Web.
-
-https://owickstrom.github.io/the-monospace-web/
+A minimalist guide to help you use correctly the Padova Neuroscience Center computing resources.
+It is all written in monospace fonts. 
+Shout-out to Oskar Wickström for providing this wonderful and more readable resource.
 
 ## Build
 
-```
-nix develop # or `direnv allow .`
-make
-```
+To easily build the guide, just install pandoc and run ``make`` 
 
 ## License
 
-[MIT](LICENSE.md)
+This guide is based on a fork of the original [monospace web repository](https://owickstrom.github.io/the-monospace-web/), which comes with a [MIT](LICENSE.md) licence.

@@ -22,10 +22,10 @@
   */
   --line-height: 1.20rem;
   --border-thickness: 2px;
-  --text-color: #000;
+  --text-color: #444;
   --text-color-alt: #666;
-  --background-color: #fff;
-  --background-color-alt: #eee;
+  --background-color: #DDD;
+  --background-color-alt: #CCC;
 
   --font-weight-normal: 500;
   --font-weight-medium: 600;
@@ -41,10 +41,10 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text-color: #fff;
-    --text-color-alt: #aaa;
-    --background-color: #000;
-    --background-color-alt: #111;
+    --text-color: #EEA000;
+    --text-color-alt: #EEBB00;
+    --background-color: #282828;
+    --background-color-alt: #111111;
   }
 }
 

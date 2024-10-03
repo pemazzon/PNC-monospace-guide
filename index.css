@@ -1,7 +1,25 @@
+/* Leave JetBrains Mono uncommented to correctly render box drawing chars */
 @import url('https://fonts.cdnfonts.com/css/jetbrains-mono-2');
+/* Uncomment the chosen font here and in the :root selector below
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap');
 
 :root {
-  --font-family: "JetBrains Mono", monospace;
+  --font-family: "Oxygen Mono", monospace;
+  /*
+  --font-family: "JetBrains Mono", monospace; 
+  --font-family: "IBM Plex Mono", monospace; 
+  --font-family: "Fira Code", monospace;
+  --font-family: "Source Code Pro", monospace;
+  --font-family: "Noto Sans Mono", monospace;
+  --font-family: "Oxygen Mono", monospace;
+  */
   --line-height: 1.20rem;
   --border-thickness: 2px;
   --text-color: #000;
@@ -233,7 +251,8 @@ figure pre {
 }
 
 pre, code {
-  font-family: var(--font-family);
+  /* font-family: var(--font-family); */
+  font-family: "JetBrains Mono", monospace;
 }
 
 code {

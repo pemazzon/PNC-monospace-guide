@@ -118,3 +118,19 @@ function onDebugToggle() {
 }
 debugToggle.addEventListener("change", onDebugToggle);
 onDebugToggle();
+
+function lightMode() {
+  var r = document.querySelector(':root');
+  r.style.setProperty('--text-color', '#444');
+  r.style.setProperty('--text-color-alt', '#666');
+  r.style.setProperty('--background-color', '#DDD');
+  r.style.setProperty('--background-color-alt', '#CCC');
+}
+
+function amberMode() {
+  var r = document.querySelector(':root');
+  r.style.setProperty('--text-color', '#EEA000');
+  r.style.setProperty('--text-color-alt', '#EEBB00');
+  r.style.setProperty('--background-color', '#282828');
+  r.style.setProperty('--background-color-alt', '#111');
+} 
